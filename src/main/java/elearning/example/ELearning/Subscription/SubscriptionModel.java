@@ -10,13 +10,10 @@ public class SubscriptionModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private Long studentId;
-
     private String subscriptionPlan;
 
     private LocalDate startDate;
-
     private LocalDate endDate;
 
     // Getters, setters
