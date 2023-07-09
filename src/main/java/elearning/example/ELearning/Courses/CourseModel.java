@@ -10,28 +10,17 @@ public class CourseModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String title;
-
     private String description;
-
     private String image;
-
     private String category;
-
     @ElementCollection
     private List<String> tags;
-
     private String language;
-
     private Long instructorId;
-
     private LocalDate startDate;
-
     private LocalDate endDate;
-
     private Integer duration;
-
     // Getters, setters
     public Long getId() {
         return id;
